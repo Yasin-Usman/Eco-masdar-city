@@ -1,4 +1,4 @@
-# Masdar Eco-Builder | مبنى مصدر البيئي
+# Masdar Eco-Builder 
 
 **A gamified sustainability quiz app for UAE students — five levels of clean energy science, set in the world's most sustainable city.**
 
@@ -229,21 +229,7 @@ Rank is derived — not stored — computed at render time from `completedLevels
 
 ## Sound design
 
-Nine tones generated live via Web Audio API (`hooks/useSounds.ts`) — no audio files, no network requests:
-
-| Sound | Trigger | Character |
-|---|---|---|
-| `playTap` | General button presses | Soft 680→520 Hz sine, 90ms |
-| `playNodeClick` | Map level node tap | Deeper pop + overtone |
-| `playCorrect` | Right answer | C5 → E5 → G5 ascending arpeggio |
-| `playWrong` | Wrong answer | Descending square-wave buzz |
-| `playHeartLoss` | Life deducted | Low 120→55 Hz triangle thud |
-| `playLevelStart` | "Start Adventure!" tap | Rising whoosh + two held notes |
-| `playVictory` | Level complete | Four-note fanfare + final chord |
-| `playCoin` | Coin award | High 880→1200 Hz ping |
-| `playSlide` | Bottom-sheet open | Soft 180→320 Hz whoosh |
-
-All tones are shaped with linear/exponential gain ramps to avoid clicks. The `AudioContext` is created lazily on first user interaction to comply with browser autoplay policy.
+All sounds are generated live via the Web Audio API (`hooks/useSounds.ts`) — no audio files, no network requests. Just messing around with frequencies and oscillator types to give each interaction its own feel.
 
 ---
 
@@ -295,8 +281,3 @@ The Barjeel wind tower, the Ghaf tree, Masdar City's PRT, and UAE desalination i
 
 ---
 
-## About
-
-Built by **Yasin Usman** for the **ADEK Frontend Developer (Interactive UI & Gamification)** submission, April 2026.
-
-Stack choices, architecture decisions, and the test suite are deliberate demonstrations of production-grade frontend practice — not incidental to the feature set.
