@@ -1,0 +1,257 @@
+[
+  {
+    "id": 1,
+    "title": "Catch the Sun!",
+    "subtitle": "Solar Harvesting",
+    "icon": "☀️",
+    "color": "#f59e0b",
+    "unlocks": "Solar Panel Array",
+    "unlocksIcon": "🔆",
+    "description": "The desert sun is the most powerful energy source in the UAE. Let's learn how Masdar City captures it!",
+    "coins": 20,
+    "questions": [
+      {
+        "id": "1-1",
+        "type": "multiple_choice",
+        "question": "What do solar panels capture to make electricity?",
+        "options": ["Wind", "Sunlight", "Water", "Sand"],
+        "correct": 1,
+        "explanation": "Solar panels capture sunlight and turn it into electricity!"
+      },
+      {
+        "id": "1-2",
+        "type": "true_false",
+        "question": "The UAE desert gets lots of sunshine, which makes it perfect for solar energy.",
+        "correct": true,
+        "explanation": "True! The UAE has over 300 sunny days a year — perfect for solar power."
+      },
+      {
+        "id": "1-3",
+        "type": "multiple_choice",
+        "question": "Masdar City in Abu Dhabi is famous for being powered by what?",
+        "options": ["Coal", "Oil", "Renewable Energy", "Gas"],
+        "correct": 2,
+        "explanation": "Masdar City is the world's most sustainable city, powered by renewable energy!"
+      },
+      {
+        "id": "1-4",
+        "type": "multiple_choice",
+        "question": "What color are most solar panels?",
+        "options": ["White", "Red", "Blue or Black", "Yellow"],
+        "correct": 2,
+        "explanation": "Solar panels are dark blue or black because dark colors absorb more sunlight."
+      },
+      {
+        "id": "1-5",
+        "type": "true_false",
+        "question": "Solar panels can only work when it is very hot outside.",
+        "correct": false,
+        "explanation": "Solar panels need sunlight, not heat! They actually work better in cooler temperatures."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Ride the Wind!",
+    "subtitle": "Wind Dynamics",
+    "icon": "🌬️",
+    "color": "#06b6d4",
+    "unlocks": "Barjeel Wind Tower",
+    "unlocksIcon": "🏛️",
+    "description": "The ancient Barjeel wind towers kept buildings cool for centuries in the UAE. Now we use wind for energy too!",
+    "coins": 25,
+    "questions": [
+      {
+        "id": "2-1",
+        "type": "multiple_choice",
+        "question": "What is a 'Barjeel' in UAE architecture?",
+        "options": ["A type of food", "A wind tower that cools buildings", "A kind of boat", "A desert plant"],
+        "correct": 1,
+        "explanation": "A Barjeel is a traditional UAE wind tower that catches wind and cools buildings naturally!"
+      },
+      {
+        "id": "2-2",
+        "type": "true_false",
+        "question": "Wind turbines spin because of the force of moving air.",
+        "correct": true,
+        "explanation": "Correct! Moving wind pushes the turbine blades, which spins a generator to create electricity."
+      },
+      {
+        "id": "2-3",
+        "type": "multiple_choice",
+        "question": "Which part of a wind turbine catches the wind?",
+        "options": ["The base", "The tower", "The blades", "The motor"],
+        "correct": 2,
+        "explanation": "The long blades catch the wind and spin to generate electricity!"
+      },
+      {
+        "id": "2-4",
+        "type": "multiple_choice",
+        "question": "Wind energy is an example of what type of energy?",
+        "options": ["Fossil fuel", "Nuclear", "Renewable", "Chemical"],
+        "correct": 2,
+        "explanation": "Wind is renewable — it never runs out and doesn't pollute the air!"
+      },
+      {
+        "id": "2-5",
+        "type": "true_false",
+        "question": "Traditional Barjeel wind towers and modern wind turbines both use wind to help people.",
+        "correct": true,
+        "explanation": "Amazing! Both use wind — one for cooling, one for making electricity. Smart UAE thinking!"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Save Every Drop!",
+    "subtitle": "Water Desalination",
+    "icon": "💧",
+    "color": "#3b82f6",
+    "unlocks": "Green Water Plant",
+    "unlocksIcon": "🌊",
+    "description": "The UAE is surrounded by saltwater seas but has very little fresh water. Desalination plants save the day!",
+    "coins": 30,
+    "questions": [
+      {
+        "id": "3-1",
+        "type": "multiple_choice",
+        "question": "What does a desalination plant do?",
+        "options": ["Makes saltwater drinkable", "Stores rain water", "Filters sand", "Pumps oil"],
+        "correct": 0,
+        "explanation": "Desalination removes salt from seawater to make it safe to drink. Amazing science!"
+      },
+      {
+        "id": "3-2",
+        "type": "true_false",
+        "question": "The UAE gets most of its drinking water from rivers and lakes.",
+        "correct": false,
+        "explanation": "The UAE has almost no rivers. Most drinking water comes from desalination plants!"
+      },
+      {
+        "id": "3-3",
+        "type": "multiple_choice",
+        "question": "Can you drink water directly from the sea?",
+        "options": ["Yes, always", "No, it has too much salt", "Yes, if you boil it", "Only in summer"],
+        "correct": 1,
+        "explanation": "Seawater has too much salt for humans to drink — that's why we need desalination!"
+      },
+      {
+        "id": "3-4",
+        "type": "multiple_choice",
+        "question": "At Masdar City, water is used very carefully. This is called?",
+        "options": ["Water running", "Water wasting", "Water conservation", "Water hiding"],
+        "correct": 2,
+        "explanation": "Water conservation means using water wisely and not wasting it. Every drop counts!"
+      },
+      {
+        "id": "3-5",
+        "type": "true_false",
+        "question": "It takes energy to turn saltwater into fresh water.",
+        "correct": true,
+        "explanation": "Yes! That's why Masdar City uses solar power for its desalination — clean energy for clean water!"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "All Aboard the PRT!",
+    "subtitle": "Public Transit",
+    "icon": "🚋",
+    "color": "#8b5cf6",
+    "unlocks": "PRT Pod Station",
+    "unlocksIcon": "🛸",
+    "description": "Masdar City has a Personal Rapid Transit system — small electric pods that move people without any pollution!",
+    "coins": 30,
+    "questions": [
+      {
+        "id": "4-1",
+        "type": "multiple_choice",
+        "question": "What does PRT stand for in Masdar City?",
+        "options": ["People Riding Trains", "Personal Rapid Transit", "Powered Road Transport", "Public Rail Track"],
+        "correct": 1,
+        "explanation": "PRT stands for Personal Rapid Transit — small electric pods that take you anywhere in Masdar City!"
+      },
+      {
+        "id": "4-2",
+        "type": "true_false",
+        "question": "The PRT pods in Masdar City produce zero exhaust fumes.",
+        "correct": true,
+        "explanation": "PRT pods run on electricity — no fuel, no fumes, no pollution. Clean travel!"
+      },
+      {
+        "id": "4-3",
+        "type": "multiple_choice",
+        "question": "Why is public transport better for the environment than everyone driving alone?",
+        "options": ["It's slower", "Fewer vehicles means less pollution", "Cars are cheaper", "Buses look nice"],
+        "correct": 1,
+        "explanation": "One bus or pod can carry many people, so fewer vehicles means less pollution in the air!"
+      },
+      {
+        "id": "4-4",
+        "type": "multiple_choice",
+        "question": "Electric vehicles are better for the environment because they don't burn what?",
+        "options": ["Water", "Air", "Fossil fuels", "Food"],
+        "correct": 2,
+        "explanation": "Electric vehicles don't burn petrol or diesel, so they don't release harmful gases!"
+      },
+      {
+        "id": "4-5",
+        "type": "true_false",
+        "question": "Cars and trucks that burn petrol contribute to air pollution.",
+        "correct": true,
+        "explanation": "True! That's why Masdar City chose electric transport — cleaner air for everyone!"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Plant the Future!",
+    "subtitle": "Green Canopy",
+    "icon": "🌳",
+    "color": "#22c55e",
+    "unlocks": "Ghaf Tree Park",
+    "unlocksIcon": "🌿",
+    "description": "The Ghaf tree is the UAE's national tree. It grows in the desert and gives shade, oxygen, and life to all around it!",
+    "coins": 35,
+    "questions": [
+      {
+        "id": "5-1",
+        "type": "multiple_choice",
+        "question": "What is the national tree of the UAE?",
+        "options": ["Palm tree", "Ghaf tree", "Mango tree", "Oak tree"],
+        "correct": 1,
+        "explanation": "The Ghaf tree is the UAE's national tree! It's incredibly tough and survives in the desert."
+      },
+      {
+        "id": "5-2",
+        "type": "true_false",
+        "question": "Trees help clean the air by taking in carbon dioxide and releasing oxygen.",
+        "correct": true,
+        "explanation": "Yes! Trees breathe in CO₂ and breathe out oxygen — they're nature's air purifiers!"
+      },
+      {
+        "id": "5-3",
+        "type": "multiple_choice",
+        "question": "Planting trees in a city helps to reduce what problem?",
+        "options": ["Too much rain", "Too much heat and pollution", "Too many animals", "Too much electricity"],
+        "correct": 1,
+        "explanation": "Trees provide shade and cool the air — perfect for fighting the UAE heat!"
+      },
+      {
+        "id": "5-4",
+        "type": "multiple_choice",
+        "question": "What gas do plants and trees absorb from the air?",
+        "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
+        "correct": 2,
+        "explanation": "Trees absorb carbon dioxide (CO₂) — a greenhouse gas that causes climate change. Trees are heroes!"
+      },
+      {
+        "id": "5-5",
+        "type": "true_false",
+        "question": "Masdar City has green spaces and parks to make life better for people and the environment.",
+        "correct": true,
+        "explanation": "Absolutely! Green spaces in Masdar City cool the area, clean the air, and make people happy!"
+      }
+    ]
+  }
+]
